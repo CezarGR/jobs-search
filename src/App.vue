@@ -6,11 +6,9 @@ import HeaderComponent from '@/components/HeaderComponent.vue';
 <template>
   <header>
     <div class="wrapper">
-      <nav>
-        <header-component />
+      <header-component />
         <!-- <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink> -->
-      </nav>
     </div>
   </header>
 
