@@ -21,7 +21,11 @@ a:hover {
 }
 
 .material-symbols-outlined:hover {
-  color: hsla(160, 100%, 37%, 1);
+  color: var(--color-action);
+}
+
+::placeholder {
+  color: #ABABAB;
 }
 
 /* 
