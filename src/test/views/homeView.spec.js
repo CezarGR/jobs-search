@@ -7,6 +7,6 @@ describe('Home view test', () => {
         const wrapper = mount(HomeView)
 
         expect(wrapper.find('h1').exists()).toBeTruthy()
-        expect(wrapper.find('h1').text()).toBe('Jobs Search')
+        expect(wrapper.find('h1').text()).toBe('Jobss Search')
     })
 })
