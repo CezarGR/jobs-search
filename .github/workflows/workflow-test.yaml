@@ -1,0 +1,23 @@
+name: Check all tests
+
+on:
+  pull_request
+
+jobs:
+  check-all-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clonando o projeto...
+        uses: actions/checkout@v2
+
+      - name: Instalando Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18.x
+
+      - name: Instalar, build e rodar os testes
+        run: |
+          npm install
+          npm run build
+          npm run test
