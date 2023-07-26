@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Clonando o projeto...
-        uses: actions/checkout@2
+        uses: actions/checkout@v2
 
       - name: Instalando Node.js
         uses: actions/setup-node@v2
