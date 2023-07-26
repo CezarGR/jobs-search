@@ -19,5 +19,5 @@ jobs:
       - name: Instalar, build e rodar os testes
         run: |
           npm install
-          npm build
-          npm test
+          npm run build
+          npm run test
